@@ -1,0 +1,33 @@
+{
+  "canisters": {
+    "icp_prueba_backend": {
+      "main": "src/icp_prueba_backend/main.mo",
+      "type": "motoko"
+    },
+    "icp_prueba_frontend": {
+      "dependencies": [
+        "icp_prueba_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/icp_prueba_frontend/src/index.html"
+      },
+      "source": [
+        "src/icp_prueba_frontend/assets",
+        "dist/icp_prueba_frontend/"
+      ],
+      "type": "assets"
+    },
+    "internet_identity" : {
+      "type": "pull",
+      "id": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}

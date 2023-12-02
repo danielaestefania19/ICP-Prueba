@@ -1,0 +1,41 @@
+.main{
+    padding: 20px;
+}
+
+.main h1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.busqueda,
+.crear,
+.borar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.busqueda{
+    background-color: rgb(255, 217, 246);
+}
+
+.crear{
+    background-color: rgb(217, 255, 242);
+}
+
+.borar{
+    background-color: rgb(252, 137, 137);
+}
+
+.crear Input,
+.busqueda Input,
+.borar Input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    background-color: white;
+} 
